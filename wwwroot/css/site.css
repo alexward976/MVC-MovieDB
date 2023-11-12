@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Quattrocento:wght@700&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+a, h1, h2, h3, h4 {
+    color: green;
+}
+
+p, li, a, label, input {
+    font-family: 'Quattrocento Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Quattrocento', Garamond, serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: green;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.btn-primary {
+    margin: 1em 0;
+    background-color: green;
+}
+
+a:hover, li>a:hover {
+    color: black;
+}
